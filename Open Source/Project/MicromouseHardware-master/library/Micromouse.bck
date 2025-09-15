@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Crystal_GND2
+D Three pin crystal (GND on pin 2), e.g. in SMD package
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP Crystal_Small
+D Two pin crystal, small symbol
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP GNDM
+D GNDM
+K GROUND, MOTOR GROUND
+$ENDCMP
+#
+$CMP ferrite
+D ferrite
+$ENDCMP
+#
+#End Doc Library

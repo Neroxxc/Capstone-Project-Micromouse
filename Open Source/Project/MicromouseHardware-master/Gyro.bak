@@ -1,0 +1,265 @@
+EESchema Schematic File Version 2
+LIBS:1_PJC-Sandbox
+LIBS:Micromouse1.2-rescue
+LIBS:Micromouse1.2-cache
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MPU-6500 U31
+U 1 1 59AB7397
+P 5750 3750
+F 0 "U31" H 5325 3125 60 0000 C CNN
+F 1 "MPU-6500" H 5750 4475 60 0000 C CNN
+F 2 "micromouse:MPU-6500" H 6050 3050 60 0001 C CNN
+F 3 "" H 6050 3050 60 0001 C CNN
+F 4 "MPU-6500" H 5325 3225 50 0001 C CNN "manf#"
+	1    5750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C34
+U 1 1 59AB75C6
+P 6650 4300
+F 0 "C34" H 6675 4400 50 0000 L CNN
+F 1 "C" H 6675 4200 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6688 4150 50 0001 C CNN
+F 3 "" H 6650 4300 50 0001 C CNN
+F 4 "DNP" H 6675 4500 50 0001 C CNN "manf#"
+	1    6650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C33
+U 1 1 59AB7607
+P 5850 4975
+F 0 "C33" H 5875 5075 50 0000 L CNN
+F 1 "0.1uF" H 5875 4875 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5888 4825 50 0001 C CNN
+F 3 "" H 5850 4975 50 0001 C CNN
+F 4 "DNP" H 5875 5175 50 0001 C CNN "manf#"
+	1    5850 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C32
+U 1 1 59AB7685
+P 5650 4975
+F 0 "C32" H 5675 5075 50 0000 L CNN
+F 1 "10nF" H 5675 4875 50 0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5688 4825 50 0001 C CNN
+F 3 "" H 5650 4975 50 0001 C CNN
+F 4 "DNP" H 5675 5175 50 0001 C CNN "manf#"
+	1    5650 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR051
+U 1 1 59AB8073
+P 6600 3650
+F 0 "#PWR051" H 6600 3400 50 0001 C CNN
+F 1 "GNDD" H 6600 3500 50 0000 C CNN
+F 2 "" H 6600 3650 50 0001 C CNN
+F 3 "" H 6600 3650 50 0001 C CNN
+	1    6600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR052
+U 1 1 59AB8123
+P 5650 5175
+F 0 "#PWR052" H 5650 4925 50 0001 C CNN
+F 1 "GNDD" H 5650 5025 50 0000 C CNN
+F 2 "" H 5650 5175 50 0001 C CNN
+F 3 "" H 5650 5175 50 0001 C CNN
+	1    5650 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR053
+U 1 1 59AB814A
+P 5850 5175
+F 0 "#PWR053" H 5850 4925 50 0001 C CNN
+F 1 "GNDD" H 5850 5025 50 0000 C CNN
+F 2 "" H 5850 5175 50 0001 C CNN
+F 3 "" H 5850 5175 50 0001 C CNN
+	1    5850 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR054
+U 1 1 59AB8D41
+P 6650 4500
+F 0 "#PWR054" H 6650 4250 50 0001 C CNN
+F 1 "GNDD" H 6650 4350 50 0000 C CNN
+F 2 "" H 6650 4500 50 0001 C CNN
+F 3 "" H 6650 4500 50 0001 C CNN
+	1    6650 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 2875 1    51   Input ~ 0
+SCLK
+Text GLabel 5550 2875 1    51   Input ~ 0
+SDI
+Text GLabel 5750 4525 3    51   Input ~ 0
+SDO
+Text GLabel 6050 4500 3    51   Input ~ 0
+INT
+Text GLabel 5950 4500 3    51   Input ~ 0
+FSYNC
+Text GLabel 5750 2875 1    51   Input ~ 0
+nCS
+Text GLabel 6775 4050 2    60   Input ~ 0
+MCUv
+Wire Wire Line
+	6450 3550 6600 3550
+Wire Wire Line
+	6600 3075 6600 3650
+Wire Wire Line
+	5950 3150 5950 3075
+Wire Wire Line
+	5950 3075 6600 3075
+Wire Wire Line
+	5650 4450 5650 4825
+Wire Wire Line
+	5650 5125 5650 5175
+Wire Wire Line
+	5850 5125 5850 5175
+Wire Wire Line
+	5850 4450 5850 4825
+Wire Wire Line
+	5750 4450 5750 4525
+Wire Wire Line
+	5550 2875 5550 3150
+Wire Wire Line
+	5650 2875 5650 3150
+Wire Wire Line
+	6050 4450 6050 4500
+Wire Wire Line
+	5950 4450 5950 4500
+Wire Wire Line
+	6450 4050 6775 4050
+Wire Wire Line
+	6650 4050 6650 4150
+Wire Wire Line
+	6650 4500 6650 4450
+Wire Wire Line
+	5750 3150 5750 2875
+Connection ~ 6600 3550
+Connection ~ 6650 4050
+NoConn ~ 5150 3550
+NoConn ~ 5150 3650
+NoConn ~ 5150 3750
+NoConn ~ 5150 3850
+NoConn ~ 5150 3950
+NoConn ~ 5150 4050
+NoConn ~ 6450 3650
+NoConn ~ 6450 3750
+NoConn ~ 6450 3850
+NoConn ~ 6450 3950
+NoConn ~ 6050 3150
+NoConn ~ 5850 3150
+NoConn ~ 5550 4450
+$EndSCHEMATC

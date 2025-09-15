@@ -1,0 +1,10 @@
+Record=TopLevelDocument|FileName=battery_charger.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=battery_charger.SchDoc|FileName=Bluetooth.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=battery_charger.SchDoc|FileName=controller_peripherals.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=battery_charger.SchDoc|FileName=controller_power.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=battery_charger.SchDoc|FileName=Gyroscope-Acceleromter.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=battery_charger.SchDoc|FileName=IR_Emitters.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=battery_charger.SchDoc|FileName=IR_Receivers.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=battery_charger.SchDoc|FileName=Motor Control.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=battery_charger.SchDoc|FileName=Power_Regulation.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=battery_charger.SchDoc|FileName=Status_LED.SchDoc|SheetNumber= 

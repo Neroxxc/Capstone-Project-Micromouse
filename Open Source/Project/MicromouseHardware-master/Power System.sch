@@ -1,0 +1,696 @@
+EESchema Schematic File Version 2
+LIBS:1_PJC-Sandbox
+LIBS:Micromouse1.2-rescue
+LIBS:Micromouse1.2-cache
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LMZ21701 U18
+U 1 1 59463C78
+P 5300 3900
+F 0 "U18" H 5250 3550 39  0000 C CNN
+F 1 "LMZ21701" H 5225 4125 39  0000 C CNN
+F 2 "micromouse:LMZ21701" H 5300 3600 39  0001 C CNN
+F 3 "" H 5300 3600 39  0001 C CNN
+F 4 "LMZ21701SILR" H 5300 3500 39  0001 C CNN "manf#"
+	1    5300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 59463D0A
+P 4175 3950
+F 0 "C13" H 4200 4050 50  0000 L CNN
+F 1 "10uF" H 4200 3850 50  0000 L CNN
+F 2 "micromouse:C_0805" H 4213 3800 50  0001 C CNN
+F 3 "" H 4175 3950 50  0001 C CNN
+F 4 "GRM21BR60J106ME19L" H 4200 4150 50  0001 C CNN "manf#"
+	1    4175 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 59463D30
+P 4575 4150
+F 0 "C14" H 4600 4250 50  0000 L CNN
+F 1 "3300pF" H 4600 4050 50  0000 L CNN
+F 2 "micromouse:C_0402" H 4613 4000 50  0001 C CNN
+F 3 "" H 4575 4150 50  0001 C CNN
+F 4 "GRM033R70J332KA01D" H 4600 4350 50  0001 C CNN "manf#"
+	1    4575 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 59463D56
+P 6525 3950
+F 0 "C15" H 6550 4050 50  0000 L CNN
+F 1 "22uF" H 6550 3850 50  0000 L CNN
+F 2 "micromouse:C_0805" H 6563 3800 50  0001 C CNN
+F 3 "" H 6525 3950 50  0001 C CNN
+F 4 "GRM21BC80G226ME39L" H 6550 4150 50  0001 C CNN "manf#"
+	1    6525 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R27
+U 1 1 59463EA4
+P 6075 4100
+F 0 "R27" V 6155 4100 50  0000 C CNN
+F 1 "562k" V 6075 4100 50  0000 C CNN
+F 2 "micromouse:R_0402" V 6005 4100 50  0001 C CNN
+F 3 "" H 6075 4100 50  0001 C CNN
+F 4 "CRCW0402562KFKED" H 6155 4200 50  0001 C CNN "manf#"
+	1    6075 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R25
+U 1 1 59463ED5
+P 5825 4250
+F 0 "R25" V 5905 4250 50  0000 C CNN
+F 1 "180k" V 5825 4250 50  0000 C CNN
+F 2 "micromouse:R_0603" V 5755 4250 50  0001 C CNN
+F 3 "" H 5825 4250 50  0001 C CNN
+F 4 "RC0603FR-07180KL" H 5905 4350 50  0001 C CNN "manf#"
+	1    5825 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R26
+U 1 1 594642FB
+P 5875 3650
+F 0 "R26" V 5955 3650 50  0000 C CNN
+F 1 "10k" V 5875 3650 50  0000 C CNN
+F 2 "micromouse:R_0402" V 5805 3650 50  0001 C CNN
+F 3 "" H 5875 3650 50  0001 C CNN
+F 4 "RC0402JR-0710KL" H 5955 3750 50  0001 C CNN "manf#"
+	1    5875 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L splitter U19
+U 1 1 5946550D
+P 3050 2100
+F 0 "U19" H 3112 1997 39  0000 C CNN
+F 1 "splitter" H 3073 2201 39  0001 C CNN
+F 2 "micromouse:spliter" H 3050 2100 39  0001 C CNN
+F 3 "" H 3050 2100 39  0001 C CNN
+F 4 "DNP" H 3112 2097 50  0001 C CNN "manf#"
+	1    3050 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L LMZ21701 U15
+U 1 1 59465F6A
+P 1875 3900
+F 0 "U15" H 1825 3550 39  0000 C CNN
+F 1 "LMZ21701" H 1800 4125 39  0000 C CNN
+F 2 "micromouse:LMZ21701" H 1875 3600 39  0001 C CNN
+F 3 "" H 1875 3600 39  0001 C CNN
+F 4 "LMZ21701SILR" H 1875 3500 39  0001 C CNN "manf#"
+	1    1875 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 59465F70
+P 750 3950
+F 0 "C10" H 775 4050 50  0000 L CNN
+F 1 "10uF" H 775 3850 50  0000 L CNN
+F 2 "micromouse:R_0805" H 788 3800 50  0001 C CNN
+F 3 "" H 750 3950 50  0001 C CNN
+F 4 "GRM21BR60J106ME19L" H 750 3950 60  0001 C CNN "manf#"
+	1    750  3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 59465F76
+P 1150 4150
+F 0 "C11" H 1175 4250 50  0000 L CNN
+F 1 "3300pF" H 1175 4050 50  0000 L CNN
+F 2 "micromouse:C_0402" H 1188 4000 50  0001 C CNN
+F 3 "" H 1150 4150 50  0001 C CNN
+F 4 "GRM033R70J332KA01D" H 1150 4150 60  0001 C CNN "manf#"
+	1    1150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R23
+U 1 1 59465F84
+P 2650 4100
+F 0 "R23" V 2730 4100 50  0000 C CNN
+F 1 "226K" V 2650 4100 50  0000 C CNN
+F 2 "micromouse:R_0402" V 2580 4100 50  0001 C CNN
+F 3 "" H 2650 4100 50  0001 C CNN
+F 4 "CRCW0402226KFKED" V 2650 4100 60  0001 C CNN "manf#"
+	1    2650 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 59465F8A
+P 2400 4250
+F 0 "R21" V 2480 4250 50  0000 C CNN
+F 1 "150K" V 2400 4250 50  0000 C CNN
+F 2 "micromouse:R_0402" V 2330 4250 50  0001 C CNN
+F 3 "" H 2400 4250 50  0001 C CNN
+F 4 "CRCW0402150KFKED" V 2400 4250 60  0001 C CNN "manf#"
+	1    2400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R22
+U 1 1 59465F96
+P 2450 3650
+F 0 "R22" V 2530 3650 50  0000 C CNN
+F 1 "10k" V 2450 3650 50  0000 C CNN
+F 2 "micromouse:R_0402" V 2380 3650 50  0001 C CNN
+F 3 "" H 2450 3650 50  0001 C CNN
+F 4 "RC0402JR-0710KL" H 2530 3750 50  0001 C CNN "manf#"
+	1    2450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L1
+U 1 1 59467F19
+P 7450 3800
+F 0 "L1" V 7400 3800 50  0000 C CNN
+F 1 "L" V 7525 3800 50  0000 C CNN
+F 2 "Inductors_SMD:L_0603" H 7450 3800 50  0001 C CNN
+F 3 "" H 7450 3800 50  0001 C CNN
+F 4 "BRL1608T100M" H 7400 3900 50  0001 C CNN "manf#"
+	1    7450 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L JST_Connector U16
+U 1 1 594682BF
+P 2000 1675
+F 0 "U16" H 1750 1775 39  0000 C CNN
+F 1 "JST_Connector" H 2000 1925 39  0000 C CNN
+F 2 "micromouse:JST_Connector" H 2000 1675 39  0001 C CNN
+F 3 "" H 1750 1775 39  0001 C CNN
+F 4 "DNP" H 1750 1875 50  0001 C CNN "manf#"
+	1    2000 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch_micromouse U17
+U 1 1 59468311
+P 2925 1700
+F 0 "U17" H 3175 1875 39  0000 C CNN
+F 1 "Switch_micromouse" H 2825 2050 39  0000 C CNN
+F 2 "micromouse:Switch_battery" H 2925 1700 39  0001 C CNN
+F 3 "" H 2925 1700 39  0001 C CNN
+F 4 "DNP" H 3175 1975 50  0001 C CNN "manf#"
+	1    2925 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR027
+U 1 1 59468675
+P 2825 2025
+F 0 "#PWR027" H 2825 1775 50  0001 C CNN
+F 1 "GNDD" H 2825 1875 50  0000 C CNN
+F 2 "" H 2825 2025 50  0001 C CNN
+F 3 "" H 2825 2025 50  0001 C CNN
+	1    2825 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R24
+U 1 1 594B7E7A
+P 3625 3800
+F 0 "R24" V 3705 3800 50  0000 C CNN
+F 1 "0" V 3625 3800 50  0000 C CNN
+F 2 "micromouse:R_0603" V 3555 3800 50  0001 C CNN
+F 3 "" H 3625 3800 50  0001 C CNN
+F 4 "RC0603JR-070RL" H 3705 3900 50  0001 C CNN "manf#"
+	1    3625 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R28
+U 1 1 594B8209
+P 6975 3550
+F 0 "R28" V 7055 3550 50  0000 C CNN
+F 1 "0" V 6975 3550 50  0000 C CNN
+F 2 "micromouse:R_0603" V 6905 3550 50  0001 C CNN
+F 3 "" H 6975 3550 50  0001 C CNN
+F 4 "RC0603JR-070RL" H 7055 3650 50  0001 C CNN "manf#"
+	1    6975 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R29
+U 1 1 594B84CE
+P 7950 3800
+F 0 "R29" V 8030 3800 50  0000 C CNN
+F 1 "0" V 7950 3800 50  0000 C CNN
+F 2 "micromouse:R_0603" V 7880 3800 50  0001 C CNN
+F 3 "" H 7950 3800 50  0001 C CNN
+F 4 "RC0603JR-070RL" H 8030 3900 50  0001 C CNN "manf#"
+	1    7950 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Test_Point U25
+U 1 1 59A95839
+P 6800 3700
+F 0 "U25" H 6800 3700 60  0000 C CNN
+F 1 "Test_Point" H 6810 3810 60  0001 C CNN
+F 2 "micromouse:Test_Point" H 6800 3700 60  0001 C CNN
+F 3 "" H 6800 3700 60  0001 C CNN
+F 4 "RCU-0C" H 6800 3800 50  0001 C CNN "manf#"
+	1    6800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_Point U26
+U 1 1 59A95A23
+P 7800 3575
+F 0 "U26" V 7810 3475 60  0000 C CNN
+F 1 "Test_Point" H 7810 3685 60  0001 C CNN
+F 2 "micromouse:Test_Point" H 7800 3575 60  0001 C CNN
+F 3 "" H 7800 3575 60  0001 C CNN
+F 4 "RCU-0C" H 7810 3575 50  0001 C CNN "manf#"
+	1    7800 3575
+	0    1    1    0   
+$EndComp
+$Comp
+L Test_Point U24
+U 1 1 59A95EC6
+P 3475 3650
+F 0 "U24" V 3485 3550 60  0000 C CNN
+F 1 "Test_Point" H 3485 3760 60  0001 C CNN
+F 2 "micromouse:Test_Point" H 3475 3650 60  0001 C CNN
+F 3 "" H 3475 3650 60  0001 C CNN
+F 4 "RCU-0C" H 3485 3650 50  0001 C CNN "manf#"
+	1    3475 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDD #PWR028
+U 1 1 59A9B990
+P 3875 4600
+F 0 "#PWR028" H 3875 4350 50  0001 C CNN
+F 1 "GNDD" H 3875 4450 50  0000 C CNN
+F 2 "" H 3875 4600 50  0001 C CNN
+F 3 "" H 3875 4600 50  0001 C CNN
+	1    3875 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR029
+U 1 1 59AE8307
+P 2550 2025
+F 0 "#PWR029" H 2550 1825 50  0001 C CNN
+F 1 "GNDPWR" H 2550 1895 50  0000 C CNN
+F 2 "" H 2550 1975 50  0001 C CNN
+F 3 "" H 2550 1975 50  0001 C CNN
+	1    2550 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR030
+U 1 1 59AE9CB5
+P 3050 2300
+F 0 "#PWR030" H 3050 2050 50  0001 C CNN
+F 1 "GNDA" H 3050 2150 50  0000 C CNN
+F 2 "" H 3050 2300 50  0001 C CNN
+F 3 "" H 3050 2300 50  0001 C CNN
+	1    3050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 59465F7C
+P 3100 3950
+F 0 "C12" H 3125 4050 50  0000 L CNN
+F 1 "22uF" H 3125 3850 50  0000 L CNN
+F 2 "micromouse:R_0805" H 3138 3800 50  0001 C CNN
+F 3 "" H 3100 3950 50  0001 C CNN
+F 4 "GRM21BC80G226ME39L" H 3100 3950 60  0001 C CNN "manf#"
+	1    3100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPS61222DCK U4
+U 1 1 59F09F15
+P 2625 6225
+F 0 "U4" H 2625 5825 60  0000 C CNN
+F 1 "TPS61222DCK" H 2625 6625 60  0000 C CNN
+F 2 "micromouse:TPS61222DCK" H 2525 6225 60  0001 C CNN
+F 3 "" H 2525 6225 60  0001 C CNN
+F 4 "TPS61222DCK" H 2625 6325 60  0001 C CNN "manf#"
+	1    2625 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C37
+U 1 1 59F0A09C
+P 3700 6200
+F 0 "C37" H 3725 6300 50  0000 L CNN
+F 1 "10uF" H 3725 6100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3738 6050 50  0001 C CNN
+F 3 "" H 3700 6200 50  0000 C CNN
+F 4 "C0805C106K8PACTU" H 3700 6200 60  0001 C CNN "manf#"
+	1    3700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C36
+U 1 1 59F0A11D
+P 1825 6400
+F 0 "C36" H 1850 6500 50  0000 L CNN
+F 1 "10uF" H 1850 6300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1863 6250 50  0001 C CNN
+F 3 "" H 1825 6400 50  0000 C CNN
+F 4 "GRM188R60J106ME47D" H 1825 6400 60  0001 C CNN "manf#"
+	1    1825 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L2
+U 1 1 59F0A1A3
+P 2025 6025
+F 0 "L2" H 1985 5965 47  0000 C CNN
+F 1 "4.7uH" H 1975 6105 47  0000 C CNN
+F 2 "Inductors_NEOSID:Neosid_Inductor_SM-NE29_SMD1008" V 1925 6025 50  0001 C CNN
+F 3 "" V 1925 6025 50  0000 C CNN
+F 4 "LQM2HPN4R7MGCL" H 2025 6025 60  0001 C CNN "manf#"
+	1    2025 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR031
+U 1 1 59F0A944
+P 1825 6550
+F 0 "#PWR031" H 1825 6300 50  0001 C CNN
+F 1 "GNDD" H 1825 6400 50  0000 C CNN
+F 2 "" H 1825 6550 50  0001 C CNN
+F 3 "" H 1825 6550 50  0001 C CNN
+	1    1825 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR032
+U 1 1 59F0AAF3
+P 3700 6350
+F 0 "#PWR032" H 3700 6100 50  0001 C CNN
+F 1 "GNDD" H 3700 6200 50  0000 C CNN
+F 2 "" H 3700 6350 50  0001 C CNN
+F 3 "" H 3700 6350 50  0001 C CNN
+	1    3700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR033
+U 1 1 59F0AD12
+P 3125 6425
+F 0 "#PWR033" H 3125 6175 50  0001 C CNN
+F 1 "GNDD" H 3125 6275 50  0000 C CNN
+F 2 "" H 3125 6425 50  0001 C CNN
+F 3 "" H 3125 6425 50  0001 C CNN
+	1    3125 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Test_Point U7
+U 1 1 59F0B962
+P 3700 5925
+F 0 "U7" V 3710 5825 60  0000 C CNN
+F 1 "Test_Point" H 3710 6035 60  0001 C CNN
+F 2 "micromouse:Test_Point" H 3700 5925 60  0001 C CNN
+F 3 "" H 3700 5925 60  0001 C CNN
+F 4 "RCU-0C" H 3710 5925 50  0001 C CNN "manf#"
+	1    3700 5925
+	0    1    1    0   
+$EndComp
+$Comp
+L R R31
+U 1 1 59F0BF87
+P 4050 6025
+F 0 "R31" V 4130 6025 50  0000 C CNN
+F 1 "0" V 4050 6025 50  0000 C CNN
+F 2 "micromouse:R_0603" V 3980 6025 50  0001 C CNN
+F 3 "" H 4050 6025 50  0001 C CNN
+F 4 "RC0603JR-070RL" H 4130 6125 50  0001 C CNN "manf#"
+	1    4050 6025
+	0    1    1    0   
+$EndComp
+Text GLabel 4175 3450 1    39   Input ~ 8
+V_BAT
+Text GLabel 6975 3400 1    39   Input ~ 8
+V3.3
+Text GLabel 750  3450 1    39   Input ~ 8
+V_BAT
+Text GLabel 8100 3800 2    39   Input ~ 8
+VA3.3
+Text GLabel 1900 1875 0    39   Input ~ 8
+V_BAT
+Text Notes 4850 1700 0    394  ~ 79
+Power System
+Text GLabel 3775 3800 2    60   Input ~ 0
+V2
+Text GLabel 1325 6225 0    60   Input ~ 0
+V_BAT
+Text GLabel 4200 6025 2    60   Input ~ 0
+V5
+Wire Wire Line
+	4175 3800 4800 3800
+Wire Wire Line
+	5700 3800 7250 3800
+Wire Wire Line
+	5875 3500 5775 3500
+Wire Wire Line
+	5775 3500 5775 3900
+Wire Wire Line
+	5775 3900 5700 3900
+Wire Wire Line
+	5700 4100 5925 4100
+Wire Wire Line
+	6225 3800 6225 4100
+Wire Wire Line
+	5700 4000 6225 4000
+Wire Wire Line
+	4175 3800 4175 3450
+Wire Wire Line
+	4575 4000 4800 4000
+Wire Wire Line
+	4800 3900 4725 3900
+Wire Wire Line
+	4725 3900 4725 3800
+Wire Wire Line
+	750  4100 1375 4100
+Wire Wire Line
+	750  3800 1375 3800
+Wire Wire Line
+	2275 3800 3475 3800
+Wire Wire Line
+	2450 3500 2350 3500
+Wire Wire Line
+	2350 3500 2350 3900
+Wire Wire Line
+	2350 3900 2275 3900
+Wire Wire Line
+	2275 4100 2500 4100
+Wire Wire Line
+	2800 3800 2800 4100
+Wire Wire Line
+	2275 4000 2800 4000
+Wire Wire Line
+	750  3800 750  3450
+Wire Wire Line
+	1150 4000 1375 4000
+Wire Wire Line
+	1375 3900 1300 3900
+Wire Wire Line
+	1300 3900 1300 3800
+Wire Wire Line
+	7550 3800 7800 3800
+Wire Wire Line
+	2625 1900 2100 1900
+Wire Wire Line
+	2100 1900 2100 1875
+Wire Wire Line
+	6975 3700 6975 3800
+Wire Wire Line
+	6900 3700 6975 3700
+Wire Wire Line
+	7800 3800 7800 3675
+Wire Wire Line
+	3475 3800 3475 3750
+Wire Wire Line
+	750  4550 6900 4550
+Wire Wire Line
+	6525 4100 6525 4550
+Wire Wire Line
+	5825 4400 5825 4550
+Wire Wire Line
+	4575 4300 4575 4550
+Wire Wire Line
+	3100 4100 3100 4550
+Wire Wire Line
+	2400 4400 2400 4550
+Wire Wire Line
+	3875 4600 3875 4550
+Wire Wire Line
+	4175 4100 4800 4100
+Wire Wire Line
+	4175 4100 4175 4550
+Wire Wire Line
+	2825 1900 2825 2025
+Wire Wire Line
+	2550 2025 2550 1925
+Wire Wire Line
+	2550 1925 3050 1925
+Wire Wire Line
+	1150 4300 1150 4550
+Wire Wire Line
+	1325 6225 2125 6225
+Wire Wire Line
+	1825 6025 1825 6250
+Wire Wire Line
+	2125 6225 2125 6425
+Wire Wire Line
+	3125 6225 3125 6025
+Wire Wire Line
+	3125 6025 3900 6025
+Wire Wire Line
+	3700 6025 3700 6050
+Wire Wire Line
+	750  4100 750  4550
+Wire Wire Line
+	3050 1925 3050 2000
+Connection ~ 5875 3800
+Connection ~ 6525 3800
+Connection ~ 5825 4100
+Connection ~ 6225 3800
+Connection ~ 6225 4000
+Connection ~ 4725 3800
+Connection ~ 2450 3800
+Connection ~ 3100 3800
+Connection ~ 2400 4100
+Connection ~ 2800 3800
+Connection ~ 2800 4000
+Connection ~ 1300 3800
+Connection ~ 6975 3800
+Connection ~ 1325 4100
+Connection ~ 6525 4550
+Connection ~ 5825 4550
+Connection ~ 4575 4550
+Connection ~ 3100 4550
+Connection ~ 2400 4550
+Connection ~ 3875 4550
+Connection ~ 4175 4550
+Connection ~ 2825 1925
+Connection ~ 1825 6225
+Connection ~ 3700 6025
+Connection ~ 1150 4550
+$EndSCHEMATC

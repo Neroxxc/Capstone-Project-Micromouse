@@ -1,0 +1,8 @@
+(module Mouter_mount (layer F.Cu) (tedit 59B51703)
+  (fp_text reference REF** (at 0 5.03) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Mouter_mount (at -0.01 -8.25) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
